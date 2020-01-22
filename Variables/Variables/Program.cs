@@ -29,6 +29,21 @@ namespace Variables
             Console.Write(fullName + " has the favorite number of " + favoriteNumber + " \nwhich equates to the crazy number " + crazyNumber);
 
             //MAKE IT DYNAMIC
+            Console.WriteLine(" \nPlease enter your last name: >>");
+            firstName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your first name: >>");
+            lastName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your favorite number: >>");
+            string favoriteNumberAsString = Console.ReadLine();
+            favoriteNumber = Convert.ToInt32(favoriteNumberAsString);
+            //favoriteNumber = Convert.ToInt32(Console.ReadLine());
+
+            fullName = firstName + " " + lastName;
+            double crazyNumber = 7.6767 * favoriteNumber;
+            Console.Write(fullName + " has the favorite number of " + favoriteNumber + " \nwhich equates to the crazy number " + crazyNumber);
+            //Console.WriteLine(${fullName} has the favorite number of {favoriteNumber} \nwhich equates to a crazy number of {crazyNumber}");
 
             Console.ReadKey();
         }
