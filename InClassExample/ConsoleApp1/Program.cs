@@ -23,8 +23,45 @@ namespace InPutFormattingConvertingAndConditionals
 
             string message = firstName + " you have a favorite number of " + favNumber.ToString("N3") + " and if you multiply that by 10 you get " + favNumberTimes10.ToString("C3");
 
-            Console.WriteLine(message);
-        
+            if (favNumber == 7 || favNumber == 3)
+            {
+                Console.WriteLine("How original are you?");
+            }
+            if (favNumber == 13)
+            {
+                Console.WriteLine("WHAT? That is an unlucky #");
+            }
+            else
+            {
+                Console.WriteLine(message);
+            }
+
+            switch (favNumber)
+            {
+                case 7:
+                    Console.WriteLine("How original are you?");
+                    break;
+                case 3:
+                    Console.WriteLine("How original are you?");
+                    break;
+                case 13:
+                    Console.WriteLine("WHAT? That is an unlucky #");
+                    break;
+
+                default:
+                    Console.WriteLine(message);
+                    break;
+            }
+
+            if (favNumber % 2 == 0)
+            {
+                Console.WriteLine("Your number is even");
+            } 
+            else
+            {
+                Console.WriteLine("Your number is odd");
+            }
+
             Console.ReadKey();
 
         }
