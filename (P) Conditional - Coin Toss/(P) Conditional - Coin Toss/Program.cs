@@ -11,34 +11,38 @@ namespace _P__Conditional___Coin_Toss
         const string MESSAGE = ("Developed by Robert Young.");
         static void Main(string[] args)
         {
-            int Heads = 0;
-            int Tail = 1;
+            //int Heads = 0;
+            //int Tails = 1;
 
             Console.WriteLine( "Enter Heads or Tails >>");
             string usersGuessAsString = Console.ReadLine();
             int usersGuess;
-
+            const int HEADS_VALUE = 0;
+            const int TAILS_VALUE = 1;
+           
             if (usersGuessAsString == "Heads")
             {
-                usersGuess = 0;
+                usersGuess = HEADS_VALUE;
             }
             else
             {
-                usersGuess = 1;
-            }
-
-            if (usersGuessAsString == "Tails")
-            {
-                usersGuess = 0;
-            }
-            else
-            {
-                usersGuess = 1;
+                usersGuess = TAILS_VALUE;
             }
 
             Random rand = new Random();
             //use the nest method on 'rand' and pass in 0,2 to generate a random number taht is 0 or 1
-            int randomNumber = rand.Next(0, 2); 
+            int randomNumber = rand.Next(0, 2);
+ 
+            if (usersGuess == randomNumber)
+            {
+                Console.WriteLine("You are right!");
+            }
+            else
+            {
+                Console.WriteLine("You are Wrong!");
+            }
+
+
 
             //var cointoss = new cointossed();
             //Random.NextCointoss(cointossed);
