@@ -9,6 +9,7 @@ namespace Variables
 {
     class Program
     {
+        const string MESSAGE = "Thank you for using my application!";
         static void Main(string[] args)
         {
             //Create string named FirstName
@@ -45,6 +46,7 @@ namespace Variables
             Console.Write(fullName + " has the favorite number of " + favoriteNumber + " \nwhich equates to the crazy number " + crazyNumber);
             //Console.WriteLine(${fullName} has the favorite number of {favoriteNumber} \nwhich equates to a crazy number of {crazyNumber}");
 
+            Console.WriteLine(MESSAGE);
             Console.ReadKey();
         }
     }
