@@ -48,9 +48,9 @@ namespace _P__Conditional___Coin_Toss
             }
             else
             {
-                Console.WriteLine("It didn't land on" + usersGuess);
+                Console.WriteLine("It didn't land on " + usersGuess);
             }
-            
+
             Console.WriteLine(MESSAGE);
             Console.ReadKey(); //Prevent teh application from closing until we press a key
         }
