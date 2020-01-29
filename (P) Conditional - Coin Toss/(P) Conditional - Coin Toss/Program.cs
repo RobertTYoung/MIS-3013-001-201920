@@ -42,13 +42,15 @@ namespace _P__Conditional___Coin_Toss
                 Console.WriteLine("You are Wrong!");
             }
 
-
-
-            //var cointoss = new cointossed();
-            //Random.NextCointoss(cointossed);
-
-            //Console.WriteLine("It was ");
-
+            if (usersGuessAsString == "Heads")
+            {
+                Console.WriteLine("It landed on" + usersGuess);
+            }
+            else
+            {
+                Console.WriteLine("It didn't land on" + usersGuess);
+            }
+            
             Console.WriteLine(MESSAGE);
             Console.ReadKey(); //Prevent teh application from closing until we press a key
         }
