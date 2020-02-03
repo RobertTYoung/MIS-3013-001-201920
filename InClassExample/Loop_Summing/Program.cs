@@ -33,7 +33,7 @@ namespace Loop_Summing
                 Console.WriteLine("Do you have another number to add? (y,n) >>");
                 answer = Console.ReadLine();
 
-            } while (answer == "y");
+            } while (answer.ToLower() == "y");
             //while (answer != "n")
 
             Console.WriteLine($"Your summation of values is {sum.ToString("N2")}");
