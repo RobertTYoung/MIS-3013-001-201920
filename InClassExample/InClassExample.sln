@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InClassExample", "InClassEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InPutFormattingConvertingAndConditionals", "ConsoleApp1\InPutFormattingConvertingAndConditionals.csproj", "{B7A6A1D7-B02A-42D7-A48D-1C7CC8A5C041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_Summing", "Loop_Summing\Loop_Summing.csproj", "{429F5BF8-5589-492C-A0A6-015840F9A290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B7A6A1D7-B02A-42D7-A48D-1C7CC8A5C041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A6A1D7-B02A-42D7-A48D-1C7CC8A5C041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A6A1D7-B02A-42D7-A48D-1C7CC8A5C041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429F5BF8-5589-492C-A0A6-015840F9A290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429F5BF8-5589-492C-A0A6-015840F9A290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429F5BF8-5589-492C-A0A6-015840F9A290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429F5BF8-5589-492C-A0A6-015840F9A290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
