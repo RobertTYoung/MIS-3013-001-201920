@@ -34,7 +34,10 @@ namespace Loop_Summing
                 answer = Console.ReadLine();
 
             } while (answer == "y");
-          //while (answer != "n")
+            //while (answer != "n")
+
+            Console.WriteLine($"Your summation of values is {sum.ToString("N2")}");
+
             Console.ReadKey();
         }
     }
