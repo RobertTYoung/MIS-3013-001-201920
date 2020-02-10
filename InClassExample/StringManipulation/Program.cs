@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loop_Summing
-{
+namespace StringManipulation
+{//Robert Young
     class Program
     {
         static void Main(string[] args)
         {
+            //                  0123
+            string FirstName = "Robert";
+            String LastName = "Young"; 
+
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Loop_Summing")]
+[assembly: AssemblyTitle("StringManipulation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Loop_Summing")]
+[assembly: AssemblyProduct("StringManipulation")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("147c8ad6-ecd0-4df6-890f-7242548ab8e6")]
+[assembly: Guid("fedf4f8e-fb3a-40e6-91e5-1d4284506bda")]
 
 // Version information for an assembly consists of the following four values:
 //

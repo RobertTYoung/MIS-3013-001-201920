@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{147C8AD6-ECD0-4DF6-890F-7242548AB8E6}</ProjectGuid>
+    <ProjectGuid>{FEDF4F8E-FB3A-40E6-91E5-1D4284506BDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Loop_Summing</RootNamespace>
-    <AssemblyName>Loop_Summing</AssemblyName>
+    <RootNamespace>StringManipulation</RootNamespace>
+    <AssemblyName>StringManipulation</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
