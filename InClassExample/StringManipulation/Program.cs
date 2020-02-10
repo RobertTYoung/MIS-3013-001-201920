@@ -35,7 +35,7 @@ namespace StringManipulation
                  Console.WriteLine(currentLetter);
              } */
 
-            //
+            
             foreach (var currentLetter in FirstName)
             {
                 Console.WriteLine(currentLetter);
