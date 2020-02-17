@@ -46,9 +46,25 @@ namespace Collections
             }
 
             //COMBINE ARRAY DATA AND LIST DATA INTO A DICTIONARY
+            Dictionary<int, string> students = new Dictionary<int, string>();
 
+            for (int i = 0; i < studentIds.Length; i++) //could also do studentNames.Length as they are parallel
+            {
+                if (students.ContainsKey(studentIds[i]) == false)
+                {
+                    students.Add(studentIds[i], studentNames[i]);
+                }
 
+                if (students.ContainsKey(studIds[i]) ==true)
+                {
+                    students.Add(studIds[i], studNames[i]);
+                }
+                
+                
+            }
+            Console.WriteLine("MADE IT THRU ALVE");
 
+            Console.WriteLine($"The dictionary has {students.Count()} students.");
             Console.ReadKey();
         }
     }
