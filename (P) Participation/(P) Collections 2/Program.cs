@@ -14,7 +14,7 @@ namespace _P__Collections_2
             //string [] classes = { "MIS", "MATH", "MGT", "FIN" };
             //string[] courseNum = { "3013", "3033", "3013", "2303" };
 
-            /*string[] classes = new string[3];
+            string[] classes = new string[3];
             string[] courseNum = new string[3];
 
             for (int i = 0; i < classes.Length; i++)
@@ -32,7 +32,7 @@ namespace _P__Collections_2
             for (int i = 0; i < classes.Length; i++)
             {
                 Console.WriteLine(string.Concat(classes[i].ToUpper(), courseNum[i].ToUpper()));
-            }*/
+            }
             //Console.WriteLine(string.Concat(classes[0], courseNum[0]));
             //Console.WriteLine("Please enter the number 3.");
 
