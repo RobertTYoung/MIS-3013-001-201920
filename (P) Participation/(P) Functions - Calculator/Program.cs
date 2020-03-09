@@ -20,13 +20,35 @@ namespace _P__Functions___Calculator
             Console.WriteLine(InfoMessage);
 
             Console.WriteLine("What kind of calculation would you like to do? Add, Substract, Multiply, or Divide >>");
-            double FunctionType = Convert.ToDouble(Console.ReadLine());
+            string FunctionType = Console.ReadLine();
 
             Console.WriteLine("What is your first number?");
-            double first = 0;
+            double firstNum = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("What is your second number?");
-            double second = 0;
-            double Answer = FunctionType(first, second);
+            double secondNum = Convert.ToDouble(Console.ReadLine());
+            //double Answer = FunctionType(firstNum, secondNum);
+            double result = 0;
+
+            if (FunctionType == "Add")
+            {
+                result = Add(firstNum, secondNum);
+                Console.WriteLine(result);
+            }
+            else if (FunctionType == "Subtract")
+            {
+                result = Subtract(firstNum, secondNum);
+                Console.WriteLine(result);
+            }
+            else if (FunctionType == "Multiply")
+            {
+                result = Multiply(firstNum, secondNum);
+                Console.WriteLine(result);
+            }
+            else if (FunctionType == "Divide")
+            {
+                result = Divide(firstNum, secondNum);
+                Console.WriteLine(result);
+            }
 
             Console.ReadKey();
         }
