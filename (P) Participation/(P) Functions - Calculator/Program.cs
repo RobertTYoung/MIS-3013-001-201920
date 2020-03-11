@@ -101,6 +101,7 @@ namespace _P__Functions___Calculator
             Console.WriteLine("What is today's date? >>");
             Date = Console.ReadLine();
             return ($"{DeveloperName} created this application for {ClassName} on {Date}.");
+            //Console.WriteLine($"{DeveloperName} created this application for {ClassName} on {Date}.");
         }
         //developers name, a string for the class name, and a string for the date of writing ,, who wrote the application, for what class, and on what date
     }
