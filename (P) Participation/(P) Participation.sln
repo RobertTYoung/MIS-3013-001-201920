@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Collections 2", "(P) Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Functions - Calculator", "(P) Functions - Calculator\(P) Functions - Calculator.csproj", "{44A2E845-6307-40F2-A27B-730B28C000B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Functions 2", "(P) Functions 2\(P) Functions 2.csproj", "{76688D9B-A4F1-401A-B18C-81A0F3965788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Functions - Participations", "(P) Functions 2\(P) Functions - Participations.csproj", "{76688D9B-A4F1-401A-B18C-81A0F3965788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
